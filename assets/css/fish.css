@@ -1,0 +1,224 @@
+svg#fish {
+  /*top: 5em;*/
+}
+
+/* Fish Animation */
+
+svg.fish {
+  overflow: hidden;
+}
+
+@-webkit-keyframes swim {
+  0% {
+    margin-left: -235px
+  }
+  90% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes swim {
+  0% {
+    margin-left: -235px
+  }
+  70% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+.fish {
+  width: 120%;
+  /* height: 104px; */
+  /* margin-left: -235px; */
+  position: fixed;
+  animation: swim 20s;
+  -webkit-animation: swim 20s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+}
+
+.fish1 {
+  width: 120%;
+  /* height: 104px; */
+  /* margin-left: -235px; */
+  position: fixed;
+  animation: swim 15s;
+  -webkit-animation: swim 15s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+}
+
+.fish2 {
+  width: 120%;
+  /* height: 104px; */
+  /* margin-left: -235px; */
+  position: fixed;
+  animation: swim 18s;
+  -webkit-animation: swim 18s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  margin-top: -15%;
+}
+
+svg #fish1, svg #fish2, svg #fish3, svg #fish4, svg #fish5, svg #fish6, svg #fish7, svg #fish8, svg #fish9, svg #fish10, svg #fish11, svg #fish12, svg #fish13, svg #fish14, svg #fish15, svg #fish16, svg #fish17, svg #fish18 {
+  fill: #4a5d5d;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+svg #fish7, svg #fish8, svg #fish9, svg #fish10, svg #fish11, svg #fish12 {
+  fill: #4a5d5d;
+  -moz-animation: bounce 1s infinite;
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
+
+svg #fish13, svg #fish14, svg #fish15, svg #fish16, svg #fish17, svg #fish18 {
+  fill: #4a5d5d;
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+
+svg #fish2 {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+svg #fish3 {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+svg #fish4 {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+
+svg #fish5 {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+svg #fish6 {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+svg #fish8 {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+svg #fish9 {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+svg #fish10 {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+
+svg #fish11 {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+svg #fish12 {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+svg #fish14 {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+svg #fish15 {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+svg #fish16 {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+
+svg #fish17 {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+svg #fish18 {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+/**/
+
+@-moz-keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 50%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+/*END Fish Animation*/
