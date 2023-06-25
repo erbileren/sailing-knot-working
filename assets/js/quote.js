@@ -1,8 +1,6 @@
 window.addEventListener("load", quote);
 
-
 async function quote() {
-
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
