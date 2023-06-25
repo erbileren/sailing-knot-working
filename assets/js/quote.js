@@ -2,7 +2,6 @@ window.addEventListener("load", quote);
 
 
 async function quote() {
-  document.getElementById("quote-refresh").addEventListener('click', function(){ quote();}, false);
 
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
