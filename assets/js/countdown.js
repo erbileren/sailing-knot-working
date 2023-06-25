@@ -1,4 +1,6 @@
-window.onload = function (e) {
+window.addEventListener('load', countdown);
+
+function countdown (e) {
   document.getElementById("future-trip").hidden = true;
 
   // Set the date we're counting down to
