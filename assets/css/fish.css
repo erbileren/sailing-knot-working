@@ -1,5 +1,5 @@
 svg#fish {
-  /*top: 5em;*/
+  /* top: 5em; */
 }
 
 /* Fish Animation */
@@ -12,9 +12,11 @@ svg.fish {
   0% {
     margin-left: -235px
   }
+
   90% {
     margin-left: 100%;
   }
+
   100% {
     margin-left: 100%;
   }
@@ -24,15 +26,17 @@ svg.fish {
   0% {
     margin-left: -235px
   }
+
   70% {
     margin-left: 100%;
   }
+
   100% {
     margin-left: 100%;
   }
 }
 
-.fish {
+.fish1 {
   width: 120%;
   /* height: 104px; */
   /* margin-left: -235px; */
@@ -43,9 +47,11 @@ svg.fish {
   -webkit-animation-iteration-count: infinite;
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
+  top: 20%;
+  z-index: 10;
 }
 
-.fish1 {
+.fish2 {
   width: 120%;
   /* height: 104px; */
   /* margin-left: -235px; */
@@ -56,9 +62,11 @@ svg.fish {
   -webkit-animation-iteration-count: infinite;
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
+  top: 35%;
+  z-index: 20;
 }
 
-.fish2 {
+.fish3 {
   width: 120%;
   /* height: 104px; */
   /* margin-left: -235px; */
@@ -70,6 +78,24 @@ svg.fish {
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
   margin-top: -15%;
+  top: 70%;
+  z-index: 30;
+}
+
+.fish4 {
+  width: 120%;
+  /* height: 104px; */
+  /* margin-left: -235px; */
+  position: fixed;
+  animation: swim 25s;
+  -webkit-animation: swim 25s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  margin-top: -15%;
+  top: 85%;
+  z-index: 40;
 }
 
 svg #fish1, svg #fish2, svg #fish3, svg #fish4, svg #fish5, svg #fish6, svg #fish7, svg #fish8, svg #fish9, svg #fish10, svg #fish11, svg #fish12, svg #fish13, svg #fish14, svg #fish15, svg #fish16, svg #fish17, svg #fish18 {
@@ -175,10 +201,12 @@ svg #fish18 {
     -moz-transform: translateY(0);
     transform: translateY(0);
   }
+
   25% {
     -moz-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+
   75% {
     -moz-transform: translateY(-3px);
     transform: translateY(-3px);
@@ -190,10 +218,12 @@ svg #fish18 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   25% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+
   75% {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
@@ -207,12 +237,14 @@ svg #fish18 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   25% {
     -moz-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+
   75% {
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
