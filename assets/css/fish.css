@@ -62,7 +62,7 @@ svg.fish {
   -webkit-animation-iteration-count: infinite;
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
-  top: 35%;
+  top: 45%;
   z-index: 20;
 }
 
@@ -78,24 +78,8 @@ svg.fish {
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
   margin-top: -15%;
-  top: 70%;
-  z-index: 30;
-}
-
-.fish4 {
-  width: 120%;
-  /* height: 104px; */
-  /* margin-left: -235px; */
-  position: fixed;
-  animation: swim 25s;
-  -webkit-animation: swim 25s;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-  margin-top: -15%;
   top: 85%;
-  z-index: 40;
+  z-index: 30;
 }
 
 svg #fish1, svg #fish2, svg #fish3, svg #fish4, svg #fish5, svg #fish6, svg #fish7, svg #fish8, svg #fish9, svg #fish10, svg #fish11, svg #fish12, svg #fish13, svg #fish14, svg #fish15, svg #fish16, svg #fish17, svg #fish18 {
