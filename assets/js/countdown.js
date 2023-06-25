@@ -22,10 +22,11 @@ function countdown(e) {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("day").innerHTML = days;
-    document.getElementById("hour").innerHTML = hours;
-    document.getElementById("min").innerHTML = minutes;
-    document.getElementById("sec").innerHTML = seconds;
+    document.getElementById("day").innerHTML = days.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+    document.getElementById("hour").innerHTML = hours.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+    document.getElementById("min").innerHTML = minutes.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+    document.getElementById("sec").innerHTML = seconds.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+
 
     // If the count down is finished, write some text
     if (distance < 0) {

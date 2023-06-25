@@ -26,6 +26,12 @@ body {
   text-shadow: 1px 1px 0px #000000;
 }
 
+.countdown span {
+  display: inline-block;
+  width: 2.5ch;
+  word-break: keep-all;
+}
+
 .quote {
   background-color: #ffffff85;
   z-index: 999;
