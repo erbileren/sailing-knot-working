@@ -1,6 +1,6 @@
-window.addEventListener('load', countdown);
+window.addEventListener("load", countdown);
 
-function countdown (e) {
+function countdown(e) {
   document.getElementById("future-trip").hidden = true;
 
   // Set the date we're counting down to
@@ -22,9 +22,10 @@ function countdown (e) {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Display the result in the element with id="demo"
-    document.getElementById("countdown").innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("day").innerHTML = days;
+    document.getElementById("hour").innerHTML = hours;
+    document.getElementById("min").innerHTML = minutes;
+    document.getElementById("sec").innerHTML = seconds;
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -34,10 +35,12 @@ function countdown (e) {
       // Currenct and upcoming trip set for the finished countdown
       document.getElementById("latest-trip").classList.add("archived");
       document.getElementById("latest-trip").classList.remove("active");
-      document.getElementById("latest-trip").childNodes[0].classList.remove("fa-fade");
+      document
+        .getElementById("latest-trip")
+        .childNodes[0].classList.remove("fa-fade");
       document.getElementById("latest-trip").removeAttribute("id");
 
       document.getElementById("future-trip").hidden = false;
     }
-  }, 1000);
-};
+  }, 0);
+}

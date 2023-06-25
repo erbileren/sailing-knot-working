@@ -2,12 +2,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url('../img/album/img1.jpeg');
   background-position: center;
   height: 100vh;
   padding: 3%;
   font-family: 'Indie Flower', cursive;
   background-color: #5af3fb;
+
 }
 
 .text-center {
@@ -23,11 +23,17 @@ body {
 .countdown .time {
   font-size: 10vh;
   color: #fff;
+  text-shadow: 1px 1px 0px #000000;
 }
 
-.countdown .quote {
-  font-size: 2.5vh;
-  color: #ffffff9c;
+.quote {
+  background-color: #ffffff85;
+  z-index: 999;
+}
+
+.quote-text {
+  font-size: 2vh;
+  color: #0B3B60;
 }
 
 #quote-refresh {
@@ -70,6 +76,7 @@ li:before {
 .active {
   font-size: 2.5rem !important;
   color: #5af3fb !important;
+  text-shadow: 1px 1px 0px #000000;
 }
 
 .archived {
