@@ -7,7 +7,7 @@ async function quote() {
 
   var quotes = [];
 
-  await fetch("/assets/quotes/list.json")
+  await fetch("../quotes/list.json")
     .then((response) => response.json())
     .then((json) => (quotes = json));
 
