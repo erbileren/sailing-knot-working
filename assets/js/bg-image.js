@@ -7,7 +7,7 @@ async function bgImage() {
 
   var images = [];
 
-  await fetch("/images.json")
+  await fetch("./images.json")
     .then((response) => response.json())
     .then((json) => (images = json));
 
