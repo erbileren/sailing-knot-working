@@ -8,6 +8,10 @@ body {
   background-color: #5af3fb;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 
 .text-center {
   width: 100%;
