@@ -111,10 +111,17 @@ body {
   z-index: 999;
 }
 
-#quote-refresh:hover {
-  color: #5af3fb;
-  cursor: pointer;
+
+#quote-refresh:hover:not(:active):not(:focus) {
+  color: #ffffff;
 }
+
+
+#quote-refresh:hover {
+  cursor: pointer !important;
+}
+
+
 
 /* ul {
   list-style: none;
