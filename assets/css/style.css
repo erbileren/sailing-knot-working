@@ -245,3 +245,13 @@ footer {
   overflow: hidden;
 }
 */
+
+@media screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape) {
+  .upcoming {
+    margin: 5% 0 0 0;
+  }
+
+  .quote {
+    margin: 5% 0 0 0;
+  }
+}
