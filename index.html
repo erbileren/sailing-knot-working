@@ -48,34 +48,69 @@
 </head>
 
 <body id="body" style="background-image: url('./assets/img/bg_sea.jpg');">
-  <div class="container">
+  <div class="row text-center upcoming">
+    <div class="col-12">
+      <p>Upcoming Event: <span id="latest-trip" class="active"><i class="fa-solid fa-sailboat fa-fade fa-fw"
+            style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.2;"></i> Marmaris'23</span><span id="future-trip"
+          class="active"><i class="fas fa-question fa-beat fa-fw"></i></span></p>
+    </div>
+  </div>
 
-    <div class="row">
-      <div class="col-12 text-center">
-        <p class="archived"><i class="fa-solid fa-ship fa-fw"></i> Marmaris'19</p>
-        <p class="archived"><i class="fa-solid fa-sailboat fa-fw"></i> Göcek'21</p>
-        <p class="archived"><i class="fa-solid fa-sailboat fa-fw"></i> Göcek'22</p>
-        <p id="latest-trip" class="active"><i class="fa-solid fa-sailboat fa-fade fa-fw" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.2;"></i> Marmaris'23</p>
-        <p id="future-trip" class="active"><i class="fas fa-question fa-beat fa-fw"></i></p>
+  <div class="row text-center countdown">
+    <div class="col-3">
+      <div class="col-12">
+        <p class="time" id="day">-</p>
+      </div>
+      <div class="col-12">
+        <p class="title">days</p>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-12 text-center countdown">
-        <p class="time" id="countdown">
-          <span id="day">-</span>d
-          <span id="hour">-</span>h
-          <span id="min">-</span>m
-          <span id="sec">-</span>s
+    <div class="col-3">
+      <div class="col-12">
+        <p class="time" id="hour">-</p>
+      </div>
+      <div class="col-12">
+        <p class="title">hours</p>
       </div>
     </div>
-
-    <div class="row justify-content-center">
-      <div class="col-10 quote text-center">
-        <p class="quote-text" id="quote"></p>
+    <div class="col-3">
+      <div class="col-12">
+        <p class="time" id="min">-</p>
+      </div>
+      <div class="col-12">
+        <p class="title">minutes</p>
       </div>
     </div>
+    <div class="col-3">
+      <div class="col-12">
+        <p class="time" id="sec">-</p>
+      </div>
+      <div class="col-12">
+        <p class="title">seconds</p>
+      </div>
+    </div>
+  </div>
 
+  <div class="row text-center previous">
+    <div class="col-12">
+      <ul>
+        <li>
+          <p class="archived"><i class="fa-solid fa-ship fa-fw"></i> Marmaris'19</p>
+        </li>
+        <li>
+          <p class="archived"><i class="fa-solid fa-sailboat fa-fw"></i> Göcek'21</p>
+        </li>
+        <li>
+          <p class="archived"><i class="fa-solid fa-sailboat fa-fw"></i> Göcek'22</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row quote">
+    <div class="col-8 offset-2 quote-content">
+      <p class="quote-text" id="quote"></p>
+    </div>
   </div>
 
   <footer>

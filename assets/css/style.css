@@ -4,26 +4,49 @@ body {
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
-  padding: 3%;
   font-family: 'Indie Flower', cursive;
   background-color: #5af3fb;
-
 }
+
 
 .text-center {
   width: 100%;
   text-align: center;
 }
 
+.upcoming {
+  background-color: #ffffff85;
+  margin: 10% 0 0 0;
+  padding: 1% 0 0 0;
+}
+
+.upcoming p {
+  color: #0B3B60;
+  font-size: 1.5em;
+}
+
 .countdown {
-  padding-top: 5%;
   z-index: 25;
+  background-color: #ffffff85;
+  position: relative;
+  margin: 0;
+  padding: 0% 15%;
 }
 
 .countdown .time {
-  font-size: 10vh;
   color: #fff;
   text-shadow: 1px 1px 0px #000000;
+  font-size: 7vh;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+
+.countdown .title {
+  color: #fff;
+  text-shadow: 1px 1px 0px #000000;
+  font-size: 2vh;
+  margin-bottom: 0;
+  line-height: 1em;
 }
 
 .countdown span {
@@ -32,14 +55,43 @@ body {
   word-break: keep-all;
 }
 
-.quote {
+.previous {
   background-color: #ffffff85;
-  z-index: 999;
+  margin: 0;
+  padding: 2% 0 1% 0;
+}
+
+.previous ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.previous li {
+  float: left;
+}
+
+.previous p {
+  margin: 0;
+  padding: 5%;
+}
+
+.quote {
+  margin: 10% 0 0 0;
+  padding: 0;
+}
+
+.quote-content {
+  background-color: #ffffff85;
+  padding: 1%;
+  text-align: center;
 }
 
 .quote-text {
   font-size: 2vh;
   color: #0B3B60;
+  margin: 0;
 }
 
 #quote-refresh {
@@ -52,17 +104,7 @@ body {
   cursor: pointer;
 }
 
-.todo {
-  color: #fff;
-  padding-top: 10%;
-  font-size: 2.5vh;
-}
-
-.todo p {
-  font-weight: 700;
-}
-
-ul {
+/* ul {
   list-style: none;
   padding: 0;
 }
@@ -77,7 +119,7 @@ li:before {
   display: inline-block;
   margin-left: -1.3em;
   width: 1.3em;
-}
+} */
 
 .active {
   font-size: 2.5rem !important;
@@ -87,7 +129,7 @@ li:before {
 
 .archived {
   text-decoration: line-through;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 footer {
@@ -114,14 +156,14 @@ footer {
 .triangle-down-right {
   width: 100%;
   height: 0;
-  padding-top: 100%;
+  padding-top: 40%;
   overflow: hidden;
 }
 
 .triangle-down-right:after {
   content: "";
   display: block;
-  margin-top: -25vh;
+  margin-top: -20vh;
   border-top: 40vh solid transparent;
   border-right: 60vh solid #ffffff9c;
 }
@@ -129,7 +171,7 @@ footer {
 
 .footer-logo {
   position: absolute;
-  right: 0vh;
+  right: 14vh;
   bottom: 12vh;
 }
 
@@ -137,7 +179,6 @@ footer {
   width: auto;
   height: 10vh;
   padding: 0%;
-  right: 8vh;
   position: absolute;
 }
 
