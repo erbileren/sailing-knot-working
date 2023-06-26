@@ -16,13 +16,21 @@ body {
 
 .upcoming {
   background-color: #ffffff85;
-  margin: 10% 0 0 0;
+  margin: 15% 0 0 0;
   padding: 1% 0 0 0;
 }
 
 .upcoming p {
   color: #0B3B60;
   font-size: 1.5em;
+}
+
+#timeout .text {
+  color: #fff;
+  text-shadow: 1px 1px 0px #000000;
+  font-size: 5vh;
+  margin-bottom: 0;
+  line-height: 1em;
 }
 
 .countdown {
@@ -58,7 +66,7 @@ body {
 .previous {
   background-color: #ffffff85;
   margin: 0;
-  padding: 2% 0 1% 0;
+  padding: 3% 0 1% 0;
 }
 
 .previous ul {
@@ -78,7 +86,7 @@ body {
 }
 
 .quote {
-  margin: 10% 0 0 0;
+  margin: 15% 0 0 0;
   padding: 0;
 }
 
@@ -182,11 +190,11 @@ footer {
   position: absolute;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   #quote-refresh {
     visibility: hidden;
   }
-}
+} */
 
 
 /*

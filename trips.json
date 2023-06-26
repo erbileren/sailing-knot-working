@@ -1,0 +1,26 @@
+[
+  {
+    "location": "Marmaris",
+    "type": "gulet",
+    "year": 19,
+    "status": "past"
+  },
+  {
+    "location": "Göcek",
+    "type": "sail",
+    "year": 21,
+    "status": "past"
+  },
+  {
+    "location": "Göcek",
+    "type": "sail",
+    "year": 22,
+    "status": "past"
+  },
+  {
+    "location": "Marmaris",
+    "type": "sail",
+    "year": 23,
+    "status": "current"
+  }
+]

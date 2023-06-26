@@ -50,13 +50,19 @@
 <body id="body" style="background-image: url('./assets/img/bg_sea.jpg');">
   <div class="row text-center upcoming">
     <div class="col-12">
-      <p>Upcoming Event: <span id="latest-trip" class="active"><i class="fa-solid fa-sailboat fa-fade fa-fw"
+      <p>Upcoming Journey: <span id="latest-trip" class="active"><i class="fa-solid fa-sailboat fa-fade fa-fw"
             style="--fa-animation-duration: 1s; --fa-fade-opacity: 0.2;"></i> Marmaris'23</span><span id="future-trip"
           class="active"><i class="fas fa-question fa-beat fa-fw"></i></span></p>
     </div>
   </div>
 
-  <div class="row text-center countdown">
+  <div id="timeout" class="row text-center countdown">
+    <div class="col-12">
+      <p class="text">Yo-ho-ho!</p>
+    </div>
+  </div>
+
+  <div id="counting" class="row text-center countdown">
     <div class="col-3">
       <div class="col-12">
         <p class="time" id="day">-</p>
@@ -93,16 +99,7 @@
 
   <div class="row text-center previous">
     <div class="col-12">
-      <ul>
-        <li>
-          <p class="archived"><i class="fa-solid fa-ship fa-fw"></i> Marmaris'19</p>
-        </li>
-        <li>
-          <p class="archived"><i class="fa-solid fa-sailboat fa-fw"></i> Göcek'21</p>
-        </li>
-        <li>
-          <p class="archived"><i class="fa-solid fa-sailboat fa-fw"></i> Göcek'22</p>
-        </li>
+      <ul id="trip-list">
       </ul>
     </div>
   </div>
@@ -110,6 +107,7 @@
   <div class="row quote">
     <div class="col-8 offset-2 quote-content">
       <p class="quote-text" id="quote"></p>
+      <i id="quote-refresh" class="fa-solid fa-arrows-rotate fa-fw" onclick="quote()"></i>
     </div>
   </div>
 
@@ -126,7 +124,6 @@
       </div>
     </div>
   </footer>
-
 
   <script type="text/javascript" src="./assets/js/bg-image.js"></script>
 
