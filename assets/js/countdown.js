@@ -7,7 +7,7 @@ var isCountDownFinished = false;
 async function tripList() {
   await fetch("./trips.json")
     .then((response) => response.json())
-    .then((json) => (trips = json.reverse()));
+    .then((json) => (trips = json));
 
   trips.forEach((element) => {
     setTripInfo(element);
